@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 071
+# 🦁 XXD Panel 071｜Pastel Poetry Notebook
 
 ### Recompose photographs as breathing pastel memories with poetic handwriting
 

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 071
+# 🦁 XXD Panel 071｜파스텔 시정 노트
 
 ### 사진을 숨 쉬는 파스텔 기억과 시적인 손글씨 화면으로 재구성합니다
 

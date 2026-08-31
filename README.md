@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 071
+# 🦁 XXD Panel 071｜粉彩诗意簿
 
 ### 把照片重构成会呼吸的粉彩记忆与诗性手写画面
 
