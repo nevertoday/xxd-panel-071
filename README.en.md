@@ -46,6 +46,15 @@ Many photo-to-illustration workflows either trace the whole scene until it feels
 
 <!-- xxd-human-intro:end -->
 
+## Usage tips
+
+- **Start with one clear photo:** choose a source whose subject, action, and relationships are easy to recognize before choosing the delivery format.
+- **Join the parameters in one sentence:** say “top-bottom / left-right / design-only + 16:9 / 3:4 / phone wallpaper”; you can also name desktop, tablet, or smartwatch sizes.
+- **State what must stay:** identify the people, objects, actions, relationships, and copy to preserve, while leaving room for the style to design the layout.
+- **Choose a text mode:** let the model write from the image, lock exact wording with `--text exact --copy`, or remove text completely with `--text none`.
+- **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
+- **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
+
 ## Original prompt · Five languages
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -64,23 +73,6 @@ The Chinese file preserves the user's wording verbatim and is the sole runtime c
 | **How it respects the source** | Identity, pose, and narrative relationships remain recognisable; only the source's most vital, emotionally representative colours are softened and purified |
 | **Where it works** | Art posters, covers, social content, design-only art, multiple ratios, and four-device wallpaper sets |
 <!-- xxd-panel-benefit:end -->
-
-## Transformation logic
-
-```text
-lock identity, pose, and narrative relationship → remove the complete scene → reduce it to a few soft, slightly naive forms → build tactile marks with pastel, crayon, soluble pencil, and thin gouache → soften and purify the source's emotional colours → float memory fragments across near-white paper → complete the reading rhythm with relaxed handwriting
-```
-
-## Recognisable finished traits
-
-- Preserve only the most memorable identity, pose, contour, and narrative relationship instead of redrawing the full scene.
-- Combine soft pastel, pastel crayon, water-soluble coloured pencil, and thin gouache, retaining powdery grain, rubbed edges, exposed paper, and uneven coverage.
-- Let forms hover, cross a boundary slightly, repeat, or interweave with text; density, scale, height, and direction establish the visual centre.
-- Treat the near-white paper field as active material carrying air, distance, silence, and emotion.
-- Soften and purify only the source's brightest, most vital, emotionally representative colours rather than imposing an outer palette.
-- Preset no title, issue number, location, or language; use fine relaxed handwriting with pressure variation and a drifting baseline.
-
-All aesthetic constraints live only in the [canonical prompt](references/original-prompt/zh-CN.md). The Skill and runtime adapters resolve delivery variables. [Skill workflow](SKILL.md) · [English runtime adapter](references/xxd-panel-071-prompt.en.md)
 
 <details>
 <summary><strong>Full capabilities and parameters (open when needed)</strong></summary>
